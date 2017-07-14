@@ -1,0 +1,24 @@
+{
+  "name": "christianblos/command-event-api",
+  "description": "Command/Event based API handler",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Christian Blos",
+      "email": "christian.blos@gmx.de"
+    }
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "^6.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "CommandEventApi\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "classmap": [
+      "example/"
+    ]
+  }
+}
